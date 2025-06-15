@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MoMo Transaction Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>MoMo Transaction Dashboard</h1>
+    <div id="filters">
+        <label>Transaction Type: 
+            <select id="typeFilter">
+                <option value="all">All</option>
+                <option value="Incoming Money">Incoming Money</option>
+                <option value="Payments">Payments</option>
+                <option value="Withdrawals">Withdrawals</option>
+                <option value="Internet Bundle Purchase">Internet Bundle Purchase</option>
+                <option value="Other">Other</option>
+            </select>
+        </label>
+    </div>
+
+    <canvas id="transactionChart" width="600" height="400"></canvas>
+
+    <script src="app.js"></script>
+</body>
+</html>
