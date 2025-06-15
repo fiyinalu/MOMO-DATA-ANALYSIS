@@ -6,6 +6,9 @@ This project is a simple SMS parsing tool written in Python that extracts SMS me
 
 It is part of an academic assignment to demonstrate basic file parsing, data transformation, and export to a user-friendly format.
 
+## Video link to demo explanation
+[https://www.loom.com/share/7ace5f72cde544cabf80d8655cd05fec?sid=f9545eb7-35ef-427c-a540-fa36f16c3050]
+
 ---
 
 ## 📂Some of The Files Included
@@ -51,6 +54,3 @@ python parse_sms.py
 | `date`    | Human-readable date and time of the SMS      |
 | `type`    | Type of SMS (1 = received, 2 = sent)         |
 | `body`    | The actual content of the SMS message        |
-
-
-## Video link to demo explanation - [https://www.loom.com/share/7ace5f72cde544cabf80d8655cd05fec?sid=f9545eb7-35ef-427c-a540-fa36f16c3050](https://www.loom.com/share/7ace5f72cde544cabf80d8655cd05fec?sid=f9545eb7-35ef-427c-a540-fa36f16c3050)
