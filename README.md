@@ -17,7 +17,7 @@ It is part of an academic assignment to demonstrate basic file parsing, data tra
 | `sms_export.csv`       | Output CSV file generated after parsing              |
 | `report.pdf`           | PDF report documenting the approach and challenges   |
 | `AUTHORS`              | File listing the author of the project               |
-| `README.md`            | This file — instructions and project documentation   |
+| `README.md`            | This file contains the instructions and project documentation   |
 
 ---
 
@@ -41,7 +41,7 @@ It is part of an academic assignment to demonstrate basic file parsing, data tra
 ```bash
 python parse_sms.py
 
-Once the script runs, you’ll find a new file named sms_export.csv with the parsed data.
+##Once the script runs, you’ll find a new file named sms_export.csv with the parsed data.
 
 
 📌 CSV Output Fields
@@ -51,3 +51,6 @@ Once the script runs, you’ll find a new file named sms_export.csv with the par
 | `date`    | Human-readable date and time of the SMS      |
 | `type`    | Type of SMS (1 = received, 2 = sent)         |
 | `body`    | The actual content of the SMS message        |
+
+
+## Video link to demo explanation - [https://www.loom.com/share/7ace5f72cde544cabf80d8655cd05fec?sid=f9545eb7-35ef-427c-a540-fa36f16c3050](https://www.loom.com/share/7ace5f72cde544cabf80d8655cd05fec?sid=f9545eb7-35ef-427c-a540-fa36f16c3050)
