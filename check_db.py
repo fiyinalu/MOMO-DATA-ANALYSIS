@@ -19,3 +19,4 @@ else:
     print("Table 'transactions' not found in the database.")
 
 conn.close()
+
